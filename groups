@@ -1,5 +1,5 @@
-# UUID          Group Name
-6ddfecad023c6f4fa3ac8c4d2583c502ea675a73 	Non-Interactive Users
-6acff260185d8a1a826e00ddcf780521eee00dc7       	puppet-swift-distgit-core
-4b60119255b45abcb59edd358957ff17068c6694        	puppet-swift-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+4b60119255b45abcb59edd358957ff17068c6694	puppet/puppet-swift-distgit-ptl
+6acff260185d8a1a826e00ddcf780521eee00dc7	puppet-swift-distgit-core
+global:Registered-Users                 	Registered Users
