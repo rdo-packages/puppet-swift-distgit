@@ -1,4 +1,8 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
+
+%{?dlrn: %global tarsources %{name}-%{upstream_version}}
+%{!?dlrn: %global tarsources openstack-swift-%{upstream_version}}
+
 Name:           puppet-swift
 Version:        9.4.0
 Release:        1%{?dist}
@@ -24,7 +28,7 @@ Requires:       puppet >= 2.7.0
 Puppet module for OpenStack Swift
 
 %prep
-%setup -q -n openstack-swift-%{upstream_version}
+%setup -q -n %{tarsources}
 
 find . -type f -name ".*" -exec rm {} +
 find . -size 0 -exec rm {} +
