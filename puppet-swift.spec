@@ -58,3 +58,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 - Update to 9.2.0
 
 
+# REMOVEME: error caused by commit http://git.openstack.org/cgit/openstack/puppet-swift/commit/?id=3ae58f377b48668d7c3e113a8cbe269f12fa2fd2
