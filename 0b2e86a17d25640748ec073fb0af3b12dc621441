@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "key": {
+        "uuid": "dacfb570_8a200a9d",
+        "filename": "puppet-swift.spec",
+        "patchSetId": 1
+      },
+      "lineNbr": 27,
+      "author": {
+        "id": 85
+      },
+      "writtenOn": "2016-10-04T16:18:29Z",
+      "side": 1,
+      "message": "but this will not work, we need openstack-swift- right?",
+      "revId": "0b2e86a17d25640748ec073fb0af3b12dc621441",
+      "serverId": "270e2033-b340-4cff-9539-693957ebf0e7",
+      "unresolved": false
+    }
+  ]
+}
