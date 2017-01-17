@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-swift
-Version:        9.4.3
+Version:        9.4.4
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Swift
 License:        Apache-2.0
@@ -48,6 +48,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 
 
 %changelog
+* Tue Jan 17 2017 Haikel Guemar <hguemar@fedoraproject.org> 9.4.4-1
+- Update to 9.4.4
+
 * Mon Nov 07 2016 Alfredo Moralejo <amoralej@redhat.com> 9.4.3-1
 - Update to 9.4.3
 
