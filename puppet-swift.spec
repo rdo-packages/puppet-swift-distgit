@@ -4,8 +4,8 @@
 %{!?dlrn: %global tarsources openstack-swift-%{upstream_version}}
 
 Name:           puppet-swift
-Version:        XXX
-Release:        XXX
+Version:        10.3.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Swift
 License:        Apache-2.0
 
@@ -52,4 +52,7 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 
 
 %changelog
+* Fri Feb 10 2017 Haikel Guemar <hguemar@fedoraproject.org> 10.3.0-1
+- Update to 10.3.0
+
 
