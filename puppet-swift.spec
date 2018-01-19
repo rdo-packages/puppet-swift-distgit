@@ -1,6 +1,6 @@
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-swift
-Version:        10.3.1
+Version:        10.4.0
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Swift
 License:        ASL 2.0
@@ -48,6 +48,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 
 
 %changelog
+* Fri Jan 19 2018 RDO <dev@lists.rdoproject.org> 10.4.0-1
+- Update to 10.4.0
+
 * Thu Apr 27 2017 rdo-trunk <javier.pena@redhat.com> 10.3.1-1
 - Update to 10.3.1
 
