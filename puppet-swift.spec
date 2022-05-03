@@ -1,9 +1,9 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x2426b928085a020d8a90d0d879ab7008d0896c8a
+%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-swift
-Version:        17.4.1
-Release:        2%{?dist}
+Version:        17.5.0
+Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Swift
 License:        ASL 2.0
 
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 
 
 %changelog
+* Tue May 03 2022 RDO <dev@lists.rdoproject.org> 17.5.0-1
+- Update to 17.5.0
+
 * Tue Oct 20 2020 Joel Capitao <jcapitao@redhat.com> 17.4.1-2
 - Enable sources tarball validation using GPG signature.
 
