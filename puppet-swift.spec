@@ -1,8 +1,8 @@
 %{!?sources_gpg: %{!?dlrn:%global sources_gpg 1} }
-%global sources_gpg_sign 0x01527a34f0d0080f8a5db8d6eb6c5df21b4b6363
+%global sources_gpg_sign 0xa63ea142678138d1bb15f2e303bdfd64dd164087
 %{!?upstream_version: %global upstream_version %{version}%{?milestone}}
 Name:           puppet-swift
-Version:        20.3.0
+Version:        20.4.0
 Release:        1%{?dist}
 Summary:        Puppet module for OpenStack Swift
 License:        ASL 2.0
@@ -65,6 +65,9 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 
 
 %changelog
+* Thu Oct 06 2022 RDO <dev@lists.rdoproject.org> 20.4.0-1
+- Update to 20.4.0
+
 * Tue Apr 05 2022 RDO <dev@lists.rdoproject.org> 20.3.0-1
 - Update to 20.3.0
 
