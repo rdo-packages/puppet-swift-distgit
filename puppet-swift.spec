@@ -68,3 +68,4 @@ cp -rp * %{buildroot}/%{_datadir}/openstack-puppet/modules/swift/
 %changelog
 
 
+# REMOVEME: error caused by commit https://opendev.org/openstack/puppet-swift/commit/fe82252e68af1d94c981668f54f87dd3f7baf595
